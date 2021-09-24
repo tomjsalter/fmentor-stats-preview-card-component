@@ -15,10 +15,12 @@ body {
     text-align: center;
     color: hsl(0, 0%, 100%);
     background-color: hsl(244, 38%, 16%);
+    padding: 40px 20px 15px;
 }
 
 .card-head {
     font-size: 1.8em;
+    margin-bottom: 15px;
 }
 
 .card-head-accent {
@@ -28,6 +30,12 @@ body {
 .card-text {
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.stats-num {
+    font-size: 1.55em;
+    margin-bottom: 6px;
 }
 
 .stats-head {
@@ -35,5 +43,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 0.8em;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-bottom: 25px;
 }
