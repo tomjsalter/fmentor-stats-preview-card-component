@@ -15,11 +15,15 @@ body {
     font-size: 15px;
     text-align: center;
     color: hsl(0, 0%, 100%);
-    background-color: hsl(244, 38%, 16%);
-    padding: 40px 25px 15px;
+    padding: 275px 25px 15px;
     width: 320px;
-    margin: 25px;
+    margin: 75px 25px;
     border-radius: 10px;
+    background-image: url(images/image-header-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: screen;
+    background-color: hsl(244, 38%, 16%);
 }
 
 .card-head {
