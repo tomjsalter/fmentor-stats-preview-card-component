@@ -15,15 +15,27 @@ body {
     font-size: 15px;
     text-align: center;
     color: hsl(0, 0%, 100%);
-    padding: 275px 25px 15px;
     width: 320px;
     margin: 75px 25px;
     border-radius: 10px;
-    background-image: url(images/image-header-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-blend-mode: screen;
     background-color: hsl(244, 38%, 16%);
+}
+
+.card-img {
+    width: 320px;
+    height: 240px;
+    background-image: url(images/image-header-mobile.jpg);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.card-head,
+.card-text,
+.card-stats {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .card-head {
