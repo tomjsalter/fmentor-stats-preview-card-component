@@ -1,72 +1,88 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {  
-    width: 375px;
-    background-color: hsl(233, 47%, 7%);
-    margin: auto;
+body {
+  width: 375px;
+  background-color: hsl(233, 47%, 7%);
+  margin: auto;
 }
 
 .card-component {
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    color: hsl(0, 0%, 100%);
-    width: 320px;
-    margin: 75px 25px;
-    border-radius: 10px;
-    background-color: hsl(244, 38%, 16%);
-    padding-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  width: 320px;
+  margin: 75px 25px;
+  border-radius: 10px;
+  background-color: hsl(244, 38%, 16%);
+  padding-bottom: 15px;
 }
 
 .card-img {
-    width: 320px;
-    height: 240px;
-    background: url(images/image-header-mobile.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: hsl(277, 64%, 61%);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-bottom: 35px;
+  width: 320px;
+  height: 240px;
+  background: url(images/image-header-mobile.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: hsl(277, 64%, 61%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 35px;
 }
 
 .card-head,
 .card-text,
 .card-stats {
-    padding-left: 25px;
-    padding-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .card-head {
-    font-size: 1.8em;
-    margin-bottom: 20px;
+  font-size: 1.8em;
+  margin-bottom: 20px;
 }
 
 .card-head-accent {
-    color: hsl(277, 64%, 61%);
+  color: hsl(277, 64%, 61%);
 }
 
 .card-text {
-    color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.7;
-    margin-bottom: 35px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  margin-bottom: 35px;
 }
 
 .stats-num {
-    font-size: 1.55em;
-    margin-bottom: 6px;
+  font-size: 1.55em;
+  margin-bottom: 6px;
 }
 
 .stats-head {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    letter-spacing: 1.5px;
-    color: hsla(0, 0%, 100%, 0.6);
-    margin-bottom: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-bottom: 25px;
+}
+
+/* DESKTOP DEVICE */
+@media screen and (min-width: 1200px) {
+    body {
+        display: flex;
+        justify-content: center;
+        width: 1160px;
+    }
+    .card-component {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1160px;
+        height: 450px;
+        margin-top: 180px;
+    }
 }
