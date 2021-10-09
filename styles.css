@@ -78,11 +78,27 @@ body {
         justify-content: center;
         width: 1160px;
     }
+
     .card-component {
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
         width: 1160px;
         height: 450px;
         margin-top: 180px;
+        padding: 0px;
+    }  
+
+    .card-img {
+        height: 450px;
+        margin-bottom: 0px;
+        flex-basis: 50%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .desk-card-col-1 {
+        flex-basis: 50%;
     }
 }
