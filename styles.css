@@ -66,7 +66,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 0.8em;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.1px;
   color: hsla(0, 0%, 100%, 0.6);
   margin-bottom: 25px;
 }
@@ -100,5 +100,15 @@ body {
 
     .desk-card-col-1 {
         flex-basis: 50%;
+    }
+
+    .card-head,
+    .card-text,
+    .card-stats-flexitem {
+      text-align: left;
+    }
+
+    .card-stats {
+      display: flex;
     }
 }
