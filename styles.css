@@ -66,7 +66,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 0.8em;
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
   color: hsla(0, 0%, 100%, 0.6);
   margin-bottom: 25px;
 }
@@ -84,13 +84,13 @@ body {
         flex-direction: row-reverse;
         align-items: center;
         width: 1160px;
-        height: 450px;
+        height: 445px;
         margin-top: 180px;
         padding: 0px;
     }  
 
     .card-img {
-        height: 450px;
+        height: 445px;
         margin-bottom: 0px;
         flex-basis: 50%;
         border-top-left-radius: 0px;
@@ -108,7 +108,27 @@ body {
       text-align: left;
     }
 
+    .card-head,
+    .card-text,
+    .card-stats {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    .card-head {
+      font-size: 2.4em;
+      margin-bottom: 25px;
+    }
+
+    .card-text {
+      width: 400px;
+      margin-bottom: 70px;
+    }
+
     .card-stats {
       display: flex;
+      justify-content: space-between;
+      width: 400px;
+      height: 40px;
     }
 }
